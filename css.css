@@ -1,0 +1,22 @@
+.header {						
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 15px;
+	font-size:20px;
+	Text-align:center;
+	}
+.nav {							
+	border: 1px solid black; 
+	float:left;
+	box-sizing: border-box;
+	padding: 15px;
+	width:10%;
+    height: 500px;
+	}
+.section {						
+	border: 1px solid black;
+	Float: left;
+	box-sizing: border-box;
+	padding: 15px;	
+	width:90%;	
+}
