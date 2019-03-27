@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css.css"/>
     </head>
-    
     <body>
         <header class="header">
             <h1>Thai Tanic</h1>
@@ -30,14 +29,7 @@ Sektion 1.10.33 av "de Finibus Bonorum et Malorum", författad av Cicero 45 år 
 H. Rackham's översättning från 1914
         
         </Section>
-
-
     </body>
-
-
-
-    
-
     <footer class="footer">
         <p>Copyright © 2019 Thai Tanic AB. Alla rättigheter reserverade.<br/> Org.nummer: 565432181-32159 </p> 
     </footer>
