@@ -14,7 +14,7 @@
             <a href="index.php"><div class="nav_item">Startsida</div></a>
             <a href="mat.php"><div class="nav_item">Maträtter</div></a>
             <a href="bokning.php"><div class="nav_item">Bokning</div></a>
-            <a href="contact.php"><div class="nav_item">Kontaktinformation</div></a>
+            <a href="contact.php"><div class="nav_item">kontakta oss</div></a>
         </nav>
         <Section class="section">
         Den ursprungliga Lorem Ipsum-texten, använd sedan 1500-talet
@@ -40,5 +40,5 @@ Sektion 1.10.33 av "de Finibus Bonorum et Malorum", författad av Cicero 45 år 
     
 
     <footer class="footer">
-footer        
+        <p>Copyright © 2019 Thai Tanic AB. Alla rättigheter reserverade. <br/>Org.nummer: 565432181-32159 </p> 
     </footer>
