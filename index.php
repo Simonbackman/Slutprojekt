@@ -17,7 +17,11 @@
             <a href="contact.php"><div class="nav_item">Kontaktinformation</div></a>
         </nav>
         <Section class="section">
-            <p></p>
+            <p>Välkommen
+            
+            Öppetider: 
+                Mån-Fre:12-21
+                Lör-Sön:12-19</p>
             
         
             
