@@ -21,8 +21,8 @@
             <div class="tider">
                 <h2>Välkommen</h2>
                 <p><i>Öppetider: <br/> 
-                Mån-Fre:12-21<br/>
-                Lör-Sön:12-19</i></p>
+                Mån-Fre:12:00-21:00<br/>
+                Lör-Sön:12:00-19:30</i></p>
             </div>
 
         
