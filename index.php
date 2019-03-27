@@ -10,7 +10,11 @@
         <header class="header">
             <h1>Thai Tanic</h1>
         </header>
-        <nav class="nav"></nav>
+        <nav class="nav">
+            <ul>
+        <li class="vnav"><a href="">test</a> </li>
+            </ul>
+        </nav>
 
         <Section class="section">
         Den ursprungliga Lorem Ipsum-texten, använd sedan 1500-talet
