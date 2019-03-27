@@ -1,12 +1,11 @@
 .header {						
     border: 1px solid black;
     box-sizing: border-box;
-    padding: 15px;
-	font-size:20px;
+    padding: 1px;
 	Text-align:center;
     background-color:black;
     color:red;
-    font-size: 30px;
+    font-size: 140%;
     text-decoration: underline;
 	}
 
@@ -37,6 +36,7 @@ nav{
 	box-sizing: border-box;
 	padding: 15px;	
 	width:100%;	
+    background-color:blanchedalmond;
 }
 .footer{
     border:1px solid blacK;
@@ -56,6 +56,7 @@ nav{
 
 .tider{
     margin-left:45%;
-    font-size: 25px;
+    margin-right: 45%;
+    font-size: 20px;
     background-color:blanchedalmond;
 }
