@@ -20,8 +20,8 @@
             <p>Välkommen
             
             Öppetider: 
-                Mån-Fre:12-21
-                Lör-Sön:12-19</p>
+                Mån-Fre:12:00-21:00
+                Lör-Sön:12:00-19:30</p>
             
         
             
