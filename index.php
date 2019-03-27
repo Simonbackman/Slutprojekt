@@ -17,12 +17,14 @@
             <a href="contact.php"><div class="nav_item">Kontakta oss</div></a>
         </nav>
         <Section class="section">
+
             <div class="tider">
                 <h2>Välkommen</h2>
                 <p><i>Öppetider: <br/> 
                 Mån-Fre:12-21<br/>
                 Lör-Sön:12-19</i></p>
             </div>
+
         
             
             <img class="bord" src="bilder/bord.jpg"/>
