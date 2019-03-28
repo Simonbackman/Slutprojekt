@@ -81,3 +81,56 @@ h2{
     border-left: 3px solid red;
     border-right: 3px solid red;
 }
+
+
+
+.food_container{
+        width:250px;
+        height:350px;
+        background-color: bisque;
+        margin: 5px;
+        float:left;
+    }    
+    
+    .food_img{
+        margin-left:5%;
+        margin-top:5%;
+        width:90%;
+        height:60%;
+        float:left;
+    }
+    
+    .food_name{
+        margin:0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .food_price{
+        margin:0px;
+        font-size: 20px;
+        color:red;
+        text-align: center;
+    }
+    
+    .food_laktos{
+         margin:0px;
+        font-size: 15px;
+        text-align: center;
+    
+}
+    .food_gluten{
+        margin:0px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .food_notter{
+        margin:0px;
+        font-size: 15px;
+        text-align: center;
+}
+    .food_spicy{
+        margin:0px;
+        font-size: 15px;
+        text-align: center;
+}
