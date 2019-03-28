@@ -36,7 +36,16 @@
                             <p class="food_laktos"><?php echo $row['laktos']; ?></p>
                             <p class="food_gluten"><?php echo $row['gluten']; ?></p>
                             <p class="food_notter"><?php echo $row['notter']; ?></p>
-                            <p class="food_spicy"><?php echo $row['spicy']; ?></p>
+                            <?php 
+                          for($i = 0 ; $i < $row['spicy']; $i++){
+                              ?>
+                            <img class="chili" src="chili.png">
+                            <?php
+                          }
+                            
+                            
+                            ?>
+                            <p class="food_spicy"></p>
                         </div>
                 <?php
                 }
