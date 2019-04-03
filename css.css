@@ -85,9 +85,9 @@ h2{
 
 
 .food_container{
-        width:250px;
-        height:350px;
-        background-color: bisque;
+        width:500px;
+        height:400px;
+        background-color: white ;
         margin: 5px;
         float:left;
     }    
@@ -95,7 +95,7 @@ h2{
     .food_img{
         margin-left:5%;
         margin-top:5%;
-        width:90%;
+        width:60%;
         height:60%;
         float:left;
     }
@@ -104,6 +104,7 @@ h2{
         margin:0px;
         font-size: 30px;
         text-align: center;
+        font-family:italic;
     }
     
     .food_price{
@@ -133,4 +134,10 @@ h2{
         margin:0px;
         font-size: 15px;
         text-align: center;
+}
+.chili{
+    height: 20px;
+}
+.milk, .gluten, .notter{
+    height: 40px;
 }

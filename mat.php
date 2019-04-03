@@ -17,12 +17,21 @@
         </nav>
         <Section class="section">
             
+            <form action="" method="GET">
+                <input type="text" name="search">
+                <input type="submit" value="Sök">
+            </form>
+            
                 <?php
     
                     $dbc = mysqli_connect("localhost","root","","food");
-
                     $query = "SELECT * FROM dishes";
 
+                    if(isset($_GET['search'])){
+                            $search = $_GET['search'];
+                            $query = "SELECT * FROM dishes WHERE name LIKE '%$search%'";
+                    }
+            
                     mysqli_query($dbc,"SET NAMES utf8");
 
                     $result = mysqli_query($dbc,$query);
@@ -33,23 +42,41 @@
                             <img class="food_img" src="bilder/<?php echo $row['img'];?>"/>
                             <p class="food_name"><?php echo $row['name']; ?></p>
                             <p class="food_price"><?php echo $row['price']; ?>kr</p>
-                            <p class="food_laktos"><?php echo $row['laktos']; ?></p>
-                            <p class="food_gluten"><?php echo $row['gluten']; ?></p>
-                            <p class="food_notter"><?php echo $row['notter']; ?></p>
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            
+                             <?php 
+                          for($i = 0 ; $i < $row['laktos']; $i++){
+                              ?>
+                            <img class="milk" src="bilder/milk.jpg">
+                            <?php
+                          }
+                            ?> 
+                             <?php 
+                          for($i = 0 ; $i < $row['gluten']; $i++){
+                              ?>
+                            <img class="gluten" src="bilder/gluten.jpg">
+                            <?php
+                          }
+                            ?>
+                              <?php 
+                          for($i = 0 ; $i < $row['notter']; $i++){
+                              ?>
+                            <img class="notter" src="bilder/notter.png">
+                            <?php
+                          }
+                            ?>
+                            <br/>
                             <?php 
                           for($i = 0 ; $i < $row['spicy']; $i++){
                               ?>
-                            <img class="chili" src="chili.png">
+                            <img class="chili" src="bilder/chili.png">
                             <?php
                           }
-                            
-                            
-                            ?>
-                            <p class="food_spicy"></p>
+                            ?> 
                         </div>
                 <?php
-                }
-            ?>
+                        }
+                    ?>            
         </Section>
     </body>
     <footer class="footer">
