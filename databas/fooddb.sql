@@ -13,3 +13,13 @@ Values  (1,'Karaage',50,1,0,0,2,'karaage.jpg'),
         (4,'Pad thai curry',49,1,1,1,2,'pad_thai_curry.jpg'),
         (5,'Niyom',59,0,1,1,3,'niyom.jpg'),
         (6,'Fried ice',70,1,0,0,1,'fried_rice.jpg');
+        
+        
+        
+        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE DATABASE reservation;
+
+use reservation;
+
+CREATE TABLE bord (id int(8) PRIMARY KEY AUTO_INCREMENT, bordsnummer int(8), );

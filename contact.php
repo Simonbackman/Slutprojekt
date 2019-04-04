@@ -14,18 +14,23 @@
             <a href="index.php"><div class="nav_item">Startsida</div></a>
             <a href="mat.php"><div class="nav_item">Maträtter</div></a>
             <a href="bokning.php"><div class="nav_item">Bokning</div></a>
-            <a href="contact.php"><div class="nav_item">kontakta oss</div></a>
+            <a href="contact.php"><div class="nav_item">Kontakta oss</div></a>
         </nav>
         <Section class="section">
-        
+            
             <h2>Kontakta oss</h2>
-            <h1>Thai Tanic</h1>
-            <a href="0312156284">Tel:0312156284</a><br/>
-            <a href="mailto:thai_tanic@email.com">thai_tanic@email.com</a>
-            <p>411 37 Göteborg</p>
-            <p>kronhusgatan 9</p>
+            <h1 class="thai_contact">Thai Tanic</h1>
+            <p class="tel_mail"><a href="0312156284">Tel:0312156284</a><br/>
+            <a href="mailto:thai_tanic@email.com">thai_tanic@email.com</a></p>
+            <p class="tel_mail">411 37 Göteborg</p>
+            <p class="tel_mail">kronhusgatan 9</p>
             
             <img class="kronhus" src="bilder/kronhusgatan.jpg"/>
+          
+                     
+            <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1S4VB-mL12MfRlPY5giQZrxCsdfjnYLxw"></iframe>
+            
+
         </Section>
 
 

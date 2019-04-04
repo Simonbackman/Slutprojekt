@@ -141,3 +141,16 @@ h2{
 .milk, .gluten, .notter{
     height: 40px;
 }
+
+.tel_mail{
+    font-size:20px;
+}
+.thai_contact{
+    font-size: 30px;
+}
+.map{
+    float:right;
+    padding-bottom: ;
+    height: 600px;
+    width: 700px;
+}
