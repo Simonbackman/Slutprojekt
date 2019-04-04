@@ -19,7 +19,7 @@
         <Section class="section">
             
             <form action="get.php" method="get">
-                Name: <input type="text" name="name"><br/>
+               
            
                 
             </form>

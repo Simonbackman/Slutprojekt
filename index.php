@@ -22,12 +22,8 @@
                 <p>Mån-Fre:12:00-21:00<br/>
                 Lör-Sön:12:00-19:30</i></p>
             </div>
-        <a href="bokning.php">
-            <img class="bord" src="bilder/bord.jpg" alt="bokning"/>
-        </a>
-        <a href="mat.php">
-            <img class="mat" src="bilder/mat.jpg" alt="rätter"/>
-        </a>
+          <a href="bokning.php"><img class="bord" src="bilder/bord.jpg" alt="bokning"/></a>
+          <a href="mat.php"><img class="mat" src="bilder/mat.jpg" alt="rätter"/></a>
         </Section>
     </body>
     <footer class="footer">

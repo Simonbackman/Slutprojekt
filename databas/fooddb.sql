@@ -18,8 +18,15 @@ Values  (1,'Karaage',50,1,0,0,2,'karaage.jpg'),
         
         
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE DATABASE recension;
+
+use recension;
+
+CREATE TABLE recension (id int(8) PRIMARY KEY AUTO_INCREMENT, name varchar(32), mail varchar(32), recension text(500));
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CREATE DATABASE reservation;
 
 use reservation;
 
-CREATE TABLE bord (id int(8) PRIMARY KEY AUTO_INCREMENT, bordsnummer int(8), );
+CREATE TABLE bord (id int(8) PRIMARY KEY AUTO_INCREMENT, bordsnummer int(8));
