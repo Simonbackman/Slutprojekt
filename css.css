@@ -23,7 +23,7 @@ nav{
     width:25%;
     float:left;
     height: 100%;
-    font-size: 50px;
+    font-size: 120%;
     text-align: center;
     line-height:75px; 
     color:white;
@@ -78,7 +78,7 @@ h2{
         width:35%;
         height:35vh;
         background-color: white ;
-        margin: 0.1%;
+        margin: 0.3%;
         float:left;
     }    
     
@@ -107,16 +107,16 @@ h2{
         text-align: center;
 }
 .chili{
-    width: 9%;
+    width: 10%;
 }
 
 .milk {
-    width: 7%;
+    width: 10%;
     font-size: 150%;
     text-align: center;
 }
 .gluten, .notter{
-    width: 8%;
+    width: 10%;
     font-size: 150%;
     text-align: center;
 }
@@ -129,25 +129,30 @@ h2{
 }
 .map{
     float:right;
-    padding-bottom: ;
-    height: 600px;
-    width: 700px;
+    height: 60vh;
+    width: 45%;
+}
+.kronhus{
+    height: 30vh;
+    width: 50%;
+    float::left;
 }
 
 
 .recensioner_container{
-    background-color: lightgray;
-    width: auto;
+    background-color: white;
+    width: 20%;
+    border: 2px solid red;
+    margin: 0.2%; 
 }
 
 .rec_name{
-    width: auto;
+   
 }
 
 .rec_mail{
-    width: auto;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 .rec_recension{
-    width: auto;
+
 }

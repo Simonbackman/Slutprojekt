@@ -27,7 +27,7 @@
             
             <img class="kronhus" src="bilder/kronhusgatan.jpg"/>    
             <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1S4VB-mL12MfRlPY5giQZrxCsdfjnYLxw"></iframe>
-            <br/><br/><br/><br/><br/> 
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/>   
             
             <h1>Skriv din recension här </h1>
             <form action="recension.php" method="GET">
