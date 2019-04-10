@@ -39,29 +39,29 @@
                     while($row = mysqli_fetch_array($result)){
                     ?>
                         <div class="food_container">
-                            <img class="food_img" src="bilder/<?php echo $row['img'];?>"/>
                             <p class="food_name"><?php echo $row['name']; ?></p>
+                            <img class="food_img" src="bilder/<?php echo $row['img'];?>"/>
                             <p class="food_price"><?php echo $row['price']; ?>kr</p>
-                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            
                             
                              <?php 
                           for($i = 0 ; $i < $row['laktos']; $i++){
                               ?>
-                            <img class="milk" src="bilder/milk.jpg">
+                            <img class="milk" src="bilder/milk.jpg"/>
                             <?php
                           }
                             ?> 
                              <?php 
                           for($i = 0 ; $i < $row['gluten']; $i++){
                               ?>
-                            <img class="gluten" src="bilder/gluten.jpg">
+                            <img class="gluten" src="bilder/gluten.jpg"/>
                             <?php
                           }
                             ?>
                               <?php 
                           for($i = 0 ; $i < $row['notter']; $i++){
                               ?>
-                            <img class="notter" src="bilder/notter.png">
+                            <img class="notter" src="bilder/notter.png"/>
                             <?php
                           }
                             ?>
@@ -69,7 +69,7 @@
                             <?php 
                           for($i = 0 ; $i < $row['spicy']; $i++){
                               ?>
-                            <img class="chili" src="bilder/chili.png">
+                            <img class="chili" src="bilder/chili.png"/>
                             <?php
                           }
                             ?> 

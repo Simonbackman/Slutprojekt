@@ -24,6 +24,10 @@
             </div>
           <a href="bokning.php"><img class="bord" src="bilder/bord.jpg" alt="bokning"/></a>
           <a href="mat.php"><img class="mat" src="bilder/mat.jpg" alt="rätter"/></a>
+
+
+        <
+
         </Section>
     </body>
     <footer class="footer">

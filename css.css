@@ -85,61 +85,50 @@ h2{
 
 
 .food_container{
-        width:500px;
-        height:400px;
+        width:35%;
+        height:35vh;
         background-color: white ;
-        margin: 5px;
+        margin: 0.1%;
         float:left;
     }    
     
     .food_img{
         margin-left:5%;
         margin-top:5%;
-        width:60%;
-        height:60%;
-        float:left;
+        width:44%;
+        float:right;
     }
     
     .food_name{
-        margin:0px;
-        font-size: 30px;
+        font-size: 150%;
         text-align: center;
         font-family:italic;
     }
     
     .food_price{
-        margin:0px;
-        font-size: 20px;
+        font-size: 150%;
         color:red;
         text-align: center;
     }
     
-    .food_laktos{
-         margin:0px;
-        font-size: 15px;
-        text-align: center;
-    
-}
-    .food_gluten{
-        margin:0px;
-        font-size: 15px;
-        text-align: center;
-    }
-    .food_notter{
-        margin:0px;
-        font-size: 15px;
-        text-align: center;
-}
+
     .food_spicy{
-        margin:0px;
-        font-size: 15px;
+        font-size: 150%;
         text-align: center;
 }
 .chili{
-    height: 20px;
+    width: 9%;
 }
-.milk, .gluten, .notter{
-    height: 40px;
+
+.milk {
+    width: 7%;
+    font-size: 150%;
+    text-align: center;
+}
+.gluten, .notter{
+    width: 8%;
+    font-size: 150%;
+    text-align: center;
 }
 
 .tel_mail{
