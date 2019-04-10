@@ -12,7 +12,7 @@ Values  (1,'Karaage',50,1,0,0,2,'karaage.jpg'),
         (3,'Pad thai cuisine',49,1,1,0,3,'pad_thai_cuisine.jpg'),
         (4,'Pad thai curry',49,1,1,1,2,'pad_thai_curry.jpg'),
         (5,'Niyom',59,0,1,1,3,'niyom.jpg'),
-        (6,'Fried ice',70,1,0,0,1,'fried_rice.jpg');
+        (6,'Fried Rice',70,1,0,0,1,'fried_rice.jpg');
         
         
         
