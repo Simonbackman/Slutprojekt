@@ -94,12 +94,17 @@ h2{
         text-align: center;
         font-family:italic;
     }
+
+.food_id{
+    font-size: 150%;
+    font-style: italic;
+}
     
     .food_price{
         font-size: 150%;
         color:red;
         text-align: center;
-    }
+}
     
 
     .food_spicy{
@@ -144,6 +149,7 @@ h2{
     width: 20%;
     border: 2px solid red;
     margin: 0.2%; 
+    
 }
 
 .rec_name{

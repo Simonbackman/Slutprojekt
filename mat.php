@@ -40,6 +40,7 @@
                     ?>
                         <div class="food_container">
                             <p class="food_name"><?php echo $row['name']; ?></p>
+                             <p class="food_id"><?php echo $row['id']; ?></p>
                             <img class="food_img" src="bilder/<?php echo $row['img'];?>"/>
                             <p class="food_price"><?php echo $row['price']; ?>kr</p>
                             
