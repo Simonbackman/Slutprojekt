@@ -1,6 +1,6 @@
-<nav>
-    <a href="home.php"><div class="nav_item">Hem</div></a>
-    <a href="about.php"><div class="nav_item">About</div></a>
-    <a href="contactme.php"><div class="nav_item">Kontakta mig</div></a>
-    <a href="filmer.php"><div class="nav_item">Filmer</div></a>
-</nav>
+    <nav>
+        <a href="index.php"><div class="nav_item">Startsida</div></a>
+        <a href="mat.php"><div class="nav_item">Maträtter</div></a>
+        <a href="bokning.php"><div class="nav_item">Bokning</div></a>
+        <a href="contact.php"><div class="nav_item">Kontakta oss</div></a>
+    </nav>

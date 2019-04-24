@@ -6,35 +6,42 @@
 		<link rel="stylesheet" type="text/css" href="css.css"/>
     </head>
     
-    <body>
+    <body>  
         <header class="header">
             <h1>Thai Tanic</h1>
         </header>
-        <nav>
-            <a href="index.php"><div class="nav_item">Startsida</div></a>
-            <a href="mat.php"><div class="nav_item">Maträtter</div></a>
-            <a href="bokning.php"><div class="nav_item">Bokning</div></a>
-            <a href="contact.php"><div class="nav_item">Kontakta oss</div></a>
-        </nav>
-        <Section class="section">
-            
-            <form action="get.php" method="get">
-               
-           
+            <?php
+                include("templates/nav.php"); 
+            ?>
+        <Section class="section_boking">
                 
-            </form>
-
-            
-            
+            <div class="boking_container">
+                    <h2>Boka Bord</h2>
+                <form id="reservation" action="reservation.php" method="GET">
+                    <input class="inputbox" type="name" name="name" placeholder="Name" Required /><br/>    
+                    <input class="inputbox" type="tel" name="phone" placeholder="Telefonnummer" Required /><br/>
+                    <input class="inputbox" type="number" name="antal" placeholder="Antal Personer" Required /><br/>
+                    <label>Datum</label><br/> 
+                    <input class="inputbox" type="date" name="date" Required /><br/>
+                    <label>Tid</label><br/>
+                    <input class="inputbox" type="time" name="time" Required /><br/>
+                        <div>
+                          <select name="bordnr" form="reservation">
+                            <option value="0">Välj Bord:</option>
+                            <option value="1">1</option><option value="2">2</option>
+                            <option value="3">3</option><option value="4">4</option>
+                            <option value="5">5</option><option value="6">6</option>
+                            <option value="7">7</option><option value="8">8</option>
+                            <option value="9">9</option><option value="10">10</option>
+                            <option value="11">11</option><option value="12">12</option>
+                          </select>
+                        </div>
+                    <input class="send" type="submit" name="submit"/>    
+                    <input class="send" type="reset" name="resert"/>
+                </form>
+            </div>
         </Section>
-
-
+         <?php
+                include("templates/footer.php"); 
+            ?>
     </body>
-
-
-
-    
-
-    <footer class="footer">
-        <p>Copyright © 2019 Thai Tanic AB. Alla rättigheter reserverade.<br/> Org.nummer: 565432181-32159 </p> 
-    </footer>

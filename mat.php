@@ -9,22 +9,17 @@
         <header class="header">
             <h1>Thai Tanic</h1>
         </header>
-        <nav>
-            <a href="index.php"><div class="nav_item">Startsida</div></a>
-            <a href="mat.php"><div class="nav_item">Maträtter</div></a>
-            <a href="bokning.php"><div class="nav_item">Bokning</div></a>
-            <a href="contact.php"><div class="nav_item">Kontakta oss</div></a>
-        </nav>
-        <Section class="section">
+            <?php
+                include("templates/nav.php"); 
+            ?>
+        <Section id="section_dishes">
             
             <form action="" method="GET">
                 <input type="text" name="search">
                 <input type="submit" value="Sök">
             </form>
-            
                 <?php
-    
-                    $dbc = mysqli_connect("localhost","root","","food");
+                    $dbc = mysqli_connect("localhost","root","","thai");
                     $query = "SELECT * FROM dishes";
 
                     if(isset($_GET['search'])){
@@ -40,29 +35,28 @@
                     ?>
                         <div class="food_container">
                             <p class="food_name"><?php echo $row['name']; ?></p>
-                             <p class="food_id"><?php echo $row['id']; ?></p>
+                            <p class="food_id"><?php echo $row['id']; ?></p>
                             <img class="food_img" src="bilder/<?php echo $row['img'];?>"/>
                             <p class="food_price"><?php echo $row['price']; ?>kr</p>
-                            
                             
                              <?php 
                           for($i = 0 ; $i < $row['laktos']; $i++){
                               ?>
-                            <img class="milk" src="bilder/milk.jpg"/>
+                            <img class="milk" src="bilder/milk.jpg" alt="laktos" title="Laktos"/>
                             <?php
                           }
                             ?> 
                              <?php 
                           for($i = 0 ; $i < $row['gluten']; $i++){
                               ?>
-                            <img class="gluten" src="bilder/gluten.jpg"/>
+                            <img class="gluten" src="bilder/gluten.jpg" alt="gluten" title="Gluten"/>
                             <?php
                           }
                             ?>
                               <?php 
                           for($i = 0 ; $i < $row['notter']; $i++){
                               ?>
-                            <img class="notter" src="bilder/notter.png"/>
+                            <img class="notter" src="bilder/notter.png" alt="nötter" title="Nötter"/>
                             <?php
                           }
                             ?>
@@ -70,7 +64,7 @@
                             <?php 
                           for($i = 0 ; $i < $row['spicy']; $i++){
                               ?>
-                            <img class="chili" src="bilder/chili.png"/>
+                            <img class="chili" src="bilder/chili.png" alt="Chili" title="Chili"/>
                             <?php
                           }
                             ?> 
@@ -79,7 +73,7 @@
                         }
                     ?>            
         </Section>
+         <?php
+                include("templates/footer.php"); 
+            ?>
     </body>
-    <footer class="footer">
-        <p>Copyright © 2019 Thai Tanic AB. Alla rättigheter reserverade.<br/> Org.nummer: 565432181-32159 </p> 
-    </footer>

@@ -6,7 +6,7 @@ if(
     
   ){
      
-$dbc_recension = mysqli_connect("localhost","root","","recension");
+$dbc_recension = mysqli_connect("localhost","root","","thai");
     
 $name = $_GET['name'];
 $mail = $_GET['mail'];
