@@ -159,18 +159,13 @@ h2{
     float::left;
 }
 /* Startsida */
-.recensioner_container{
-    clear:both;
-    background-color: white;
-    width:100%;
-    border: 2px solid red;
-    margin: 0.2%;
+
+section table {
+    background-color:white;
+    border:1px solid black;
+    width:;
 }
-.recension{
-    width: 100%;
-}
-.rec_recension{
-}
+
 .admin{
     color:white;
 }

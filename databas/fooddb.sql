@@ -17,4 +17,4 @@ Values  (1,'Karaage',50,1,0,0,2,'karaage.jpg'),
 CREATE TABLE recension (id int(8) PRIMARY KEY AUTO_INCREMENT, name varchar(32), mail varchar(32), recension text(500));
 
 
-CREATE TABLE reservation (id int(8) PRIMARY KEY AUTO_INCREMENT, name varchar(32), phone int(8), antal int(8), date varchar(32), time varchar(32), bordnr int(8));
+CREATE TABLE reservation (id int(8) PRIMARY KEY AUTO_INCREMENT, name varchar(32), phone int(8), antal int(8), date varchar(32) UNIQUE, time varchar(32) UNIQUE, bordnr int(8) UNIQUE);
