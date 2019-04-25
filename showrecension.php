@@ -1,21 +1,17 @@
- <?php
-$dbc = mysqli_connect("localhost","root","","thai");
+                <?php    
+                    $dbc = mysqli_connect("localhost","root","","thai");
                     $query = "SELECT * FROM recension";
-
                     mysqli_query($dbc,"SET NAMES utf8");
-
                     $result = mysqli_query($dbc,$query);
-                    
-                    ?>
-                    <table class="rec_container">
-                    <?php
                     while($row = mysqli_fetch_array($result)){
-                        
-                        echo "<tr><td class=rec_name>Name:" . $row['name'] . "</td>";
-                        echo "<td class=rec_mail>" . $row['mail'] . "</td>";
-                        echo "<td class=rec_recension>" . $row['recension'] . "</td></tr>";
-                                      
-                    }
                     ?>
-                    </table>
-                
+                        <div class="recensioner_container">
+                            <table class="recension">
+                                <tr><td class="rec_name">Name:<?php echo $row['name']; ?></td></tr>
+                                <tr><td class="rec_mail">Mail:<?php echo $row['mail']; ?></td>
+                                <tr><td class="rec_recension"><?php echo $row['recension']; ?></td></tr>
+                            </table>                 
+                        </div>
+                <?php
+                        }
+                    ?> 

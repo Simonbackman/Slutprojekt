@@ -6,7 +6,6 @@ if(
     isset($_GET['date']) &&
     isset($_GET['time']) &&
     isset($_GET['bordnr']) 
-    
   ){
      
 $dbc_reservation = mysqli_connect("localhost","root","","thai");
