@@ -24,8 +24,8 @@
              <?php    
                    include ("showrecension.php");
             ?>            
-        </Section>
          <?php
                 include("templates/footer.php"); 
             ?>
+        </Section>
     </body>

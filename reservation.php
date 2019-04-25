@@ -21,6 +21,10 @@ $query = "INSERT INTO reservation (id,name,phone,antal,date,time,bordnr) VALUES 
 mysqli_query($dbc_reservation,$query);
 
 }
+else{
+     $_SESSION['error_msg'] = "Felaktig information";
+    header("Location: bokning.php");
+}
 header("location:bokning.php");
 // echo mysqli_error($dbc_recension);
 ?>
