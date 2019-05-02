@@ -22,11 +22,11 @@ nav{
     border-top: 4px solid red;
     background-color:black;
 }
-.admin_nav{
-    
+.nav_item{
+    margin-left: 38%;
 }
 .admin_section{
-    background: green;
+    background: maroon;
     height: 100vh;
     border-top: 1px solid red;
 }
@@ -243,8 +243,14 @@ table{
     font-size: 30px;
 }
 
-.test {
+.info_reservation, th, td {
+    border: 1px solid black;
     background-color: white;
     float:left;
+    margin:0.5%;
     
+}
+
+th, td {
+    width:100%;
 }
