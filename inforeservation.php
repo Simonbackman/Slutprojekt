@@ -6,7 +6,7 @@
                     while($row = mysqli_fetch_array($result)){
                     ?>
                     <div >
-                        <table class="test">
+                        <table class="info_reservation">
                                 <tr><td class="">Namn: <?php echo $row['name']; ?></td></tr>
                                 <tr><td class="">Telefon: <?php echo $row['phone']; ?></td></tr>
                                 <tr><td class="">Antal Personer: <?php echo $row['antal']; ?></td></tr>
