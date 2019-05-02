@@ -23,7 +23,7 @@ nav{
     background-color:black;
 }
 .admin_nav{
-    
+       
 }
 .admin_section{
     background: green;
@@ -172,7 +172,6 @@ section table {
     border:1px solid black;
     width:;
 }
-
 .admin{
     color:white;
 }
@@ -242,9 +241,7 @@ table{
     text-align:center;
     font-size: 30px;
 }
-
 .test {
     background-color: white;
-    float:left;
-    
+    float:left;   
 }
