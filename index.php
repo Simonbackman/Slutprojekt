@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     <body>
         <header class="header">
@@ -19,12 +20,12 @@
                 <p>Mån-Fre:12:00-21:00<br/>
                 Lör-Sön:12:00-19:30</i></p>
             </div>
-          <a href="bokning.php"><img class="bord" src="bilder/bord.jpg" alt="bokning" title="Gå till bordsbokning"/></a>
-          <a href="mat.php"><img class="mat" src="bilder/mat.jpg" alt="rätter" title="Gå till maträtter"/></a>
-             <?php    
+            <a href="bokning.php"><img class="bord" src="bilder/bord.jpg" alt="bokning" title="Gå till bordsbokning"/></a>
+            <a href="mat.php"><img class="mat" src="bilder/mat.jpg" alt="rätter" title="Gå till maträtter"/></a>
+            <?php    
                    include ("showrecension.php");
             ?>            
-         <?php
+            <?php
                 include("templates/footer.php"); 
             ?>
         </Section>

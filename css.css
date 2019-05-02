@@ -64,9 +64,6 @@ nav{
     border-left: 5px solid red;
     border-right: 5px solid red; 
 }
-.footer{
-    border:1px solid blacK;
-}
 /* Startsida */
 
 .recensioner_container{
@@ -96,7 +93,9 @@ h2{
 }
 .footer{
     background-color:black;
+    width: 100%;
     color:white;
+    border-top: 1px solid red;
     border-bottom: 6px solid red;
     border-left: 3px solid red;
     border-right: 3px solid red;
@@ -221,7 +220,6 @@ table{
 .send{
     width: 20%;
 }
-
 .input_food {
     background-color:rosybrown;
     position: absolute;
