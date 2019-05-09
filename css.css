@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,7 @@
     border-top: 5px solid red;
 	}
 nav{
+    float:left;
     width:100%;
     height:75px;    
     border-bottom: 6px solid red;
@@ -36,14 +37,6 @@ nav{
 .admin_nav_item:hover {
     background-color: red;
     color:white;
-    
-
-.admin_nav{
-       
-}
-.nav_item{
-    margin-left: 38%;
-
 }
 .admin_section{
     background: maroon;
@@ -261,14 +254,13 @@ table{
     text-align:center;
     font-size: 30px;
 }
-
+.info_reservation {
+    float:left;
+}
 .info_reservation, .admin_tr, .admin_table {
     border: 1px solid black;
     background-color: white;
-    float:left;
-    
 }
-
 .admin_tr, .admin_table {
     margin:0.5%;   
 }
