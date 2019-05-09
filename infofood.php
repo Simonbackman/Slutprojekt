@@ -12,14 +12,6 @@
 
 
 
-       
-   
-/*
-    if ($_FILES["img"]["size"] > 500000) {
-        echo "Bilden är för stor.";
-        $uploadOk = 0;
-    }
-*/
     if($file_extension != "jpg" && $file_extension != "png" && $file_extension != "jpeg" ) {
         echo "Bara jpg och png bilder.";
         $uploadOk = 0;
