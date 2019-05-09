@@ -12,7 +12,7 @@
             <h1>AdminPanel</h1>
         </header>
             <nav class="admin_nav">
-                <a href="index.php"><div class="nav_item"><i class="fas fa-home"></i> Startsida</div></a>
+                <a href="index.php"><div class="admin_nav_item"><i class="fas fa-home"></i> Startsida</div></a>
             </nav>
         <section class="admin_section">
             <div class="input_food">
