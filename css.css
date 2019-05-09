@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ nav{
 .admin_nav_item:hover {
     background-color: red;
     color:white;
-    
+}
 
 .admin_nav{
        
@@ -271,4 +271,8 @@ table{
 
 .admin_tr, .admin_table {
     margin:0.5%;   
+}
+
+th, td {
+    width:100%;
 }
