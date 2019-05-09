@@ -1,4 +1,4 @@
-body{
+﻿body{
     margin: 0;
     padding: 0;
 }
@@ -22,6 +22,7 @@ nav{
     border-top: 4px solid red;
     background-color:black;
 }
+
 .admin_nav_item{
     margin-left: 38%;
     width:25%;
@@ -36,6 +37,13 @@ nav{
     background-color: red;
     color:white;
     
+
+.admin_nav{
+       
+}
+.nav_item{
+    margin-left: 38%;
+
 }
 .admin_section{
     background: maroon;
@@ -184,7 +192,6 @@ section table {
     border:1px solid black;
     width:;
 }
-
 .admin{
     color:white;
 }
@@ -260,9 +267,8 @@ table{
     background-color: white;
     float:left;
     
-    
 }
 
 .admin_tr, .admin_table {
-    width:100%;
+    margin:0.5%;   
 }
