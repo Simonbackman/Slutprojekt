@@ -16,8 +16,8 @@
         <Section id="section_dishes">
             
             <form action="" method="GET">
-                <input type="text" name="search">
-                <input type="submit" value="Sök">
+                <input type="text" name="search"/>
+                <input type="submit" value="Sök"/>
             </form>
                 <?php
                     $dbc = mysqli_connect("localhost","root","","thai");
@@ -27,7 +27,7 @@
                             $search = $_GET['search'];
                             $query = "SELECT * FROM dishes WHERE name LIKE '%$search%'";
                     }
-            
+                    
                     mysqli_query($dbc,"SET NAMES utf8");
 
                     $result = mysqli_query($dbc,$query);

@@ -20,8 +20,11 @@
                 <p>Mån-Fre:12:00-21:00<br/>
                 Lör-Sön:12:00-19:30</i></p>
             </div>
-            <a href="bokning.php"><img class="bord" src="bilder/bord.jpg" alt="bokning" title="Gå till bordsbokning"/></a>
-            <a href="mat.php"><img class="mat" src="bilder/mat.jpg" alt="rätter" title="Gå till maträtter"/></a>
+            
+                <div class="mat_bord">
+                <!--<a href="bokning.php">--><img class="bord" src="bilder/bord.jpg" alt="bokning" title="Gå till bordsbokning"/></a>
+                <!--<a href="mat.php">--><img class="mat" src="bilder/mat.jpg" alt="rätter" title="Gå till maträtter"/></a>
+                </div>
             <?php    
                    include ("showrecension.php");
             ?>            

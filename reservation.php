@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(
     isset($_GET['name']) &&
     isset($_GET['phone']) &&
@@ -17,13 +18,28 @@ $date = $_GET['date'];
 $time = $_GET['time'];
 $bordnr = $_GET['bordnr'];
     
-$query = "INSERT INTO reservation (id,name,phone,antal,date,time,bordnr) VALUES ('$id','$name','$phone','$antal','$date','$time','$bordnr');";
-mysqli_query($dbc_reservation,$query);
+$query = "INSERT INTO reservation (name,phone,antal,date,time,bordnr) VALUES ('$name','$phone','$antal','$date','$time','$bordnr');";
 
+    if(mysqli_query($dbc_reservation,$query)){
+        // SKICKAS TILL INDEX
+        header("Location: bokning.php");
+    }else{ // NÅGOT GICK FEL
+        // SKAPA ETT ERRORMEDDELADNE
+        $_SESSION['error_msg'] = "Bord upptaget!";
+        header("Location: bokning.php");
+    }
 }
-else{
+else{ // FELAKTIG DATA FRÅN $_POST
     $_SESSION['error_msg'] = "Felaktig information";
     header("Location: bokning.php");
+}
+?>
+
+<!--
+
+else{
+    $_SESSION['error_msg'] = "Felaktig information";
+    header("Location:bokning.php");
     
 }
     header("location:bokning.php");

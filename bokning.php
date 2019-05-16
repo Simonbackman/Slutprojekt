@@ -8,7 +8,18 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     
-    <body>  
+    <body>
+            <div class="error_msg">
+                <?php
+                    // OM DET FINNS ERROR MESSAGE
+                    if(isset($_SESSION['error_msg'])){
+                    // Skriv ut error_msg
+                    echo $_SESSION['error_msg'] . "<br>";
+                    // TAR BORT ERROR_MSG
+                    unset($_SESSION['error_msg']);
+                        }
+                ?>
+            </div>
         <header class="header">
             <h1>Thai Tanic</h1>
         </header>
