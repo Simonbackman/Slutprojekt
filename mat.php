@@ -24,8 +24,10 @@
                     $query = "SELECT * FROM dishes";
 
                     if(isset($_GET['search'])){
+                            mysqli_real_escape_string($dbc, $_GET['search']);
+                            $safe = mysqli_real_escape_string($dbc, $_GET['search']);
                             $search = $_GET['search'];
-                            $query = "SELECT * FROM dishes WHERE name LIKE '%$search%'";
+                            $query = "SELECT * FROM dishes WHERE name LIKE '%$safe%'";
                     }
                     
                     mysqli_query($dbc,"SET NAMES utf8");

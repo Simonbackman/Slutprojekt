@@ -22,8 +22,8 @@
             </div>
             
                 <div class="mat_bord">
-                <!--<a href="bokning.php">--><img class="bord" src="bilder/bord.jpg" alt="bokning" title="Gå till bordsbokning"/></a>
-                <!--<a href="mat.php">--><img class="mat" src="bilder/mat.jpg" alt="rätter" title="Gå till maträtter"/></a>
+                <!--<a href="bokning.php">--><img class="bord" src="bilder/bord.jpg" alt="bokning"/></a>
+                <!--<a href="mat.php">--><img class="mat" src="bilder/mat.jpg" alt="rätter"/></a>
                 </div>
             <?php    
                    include ("showrecension.php");
