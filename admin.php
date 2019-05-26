@@ -1,7 +1,6 @@
 <?php session_start()?>
 <!doctype html>
-<html>
-    <lang="sv"/>
+<html lang="sv"> 
     <head>
         <title>Admin Panel</title>
         <meta charset="utf-8"/>

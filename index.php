@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> <lang="sv"/> 
+<html lang="sv"> 
 	<head>
         <title>Startsida</title>
 		<meta charset="utf-8"/>
