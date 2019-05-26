@@ -1,10 +1,13 @@
 <?php session_start() ?>
 <!DOCTYPE html>
+<html>
     <lang="sv"/>
 	<head>	
 		<meta charset="utf-8"/>
+        <title>Kontakt info</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css.css"/>
+         <!-- Gör så att man kan använda sig av font bilder -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     
@@ -24,7 +27,8 @@
             <p class="tel_mail">411 37 Göteborg</p>
             <p class="tel_mail">kronhusgatan 9</p>
             
-            <img class="kronhus" src="bilder/kronhusgatan.jpg"/>    
+            <img class="kronhus" src="bilder/kronhusgatan.jpg"/> 
+            <!-- visar en google map på platsen -->
             <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1S4VB-mL12MfRlPY5giQZrxCsdfjnYLxw"></iframe>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>   
             
@@ -36,11 +40,9 @@
                 <input type="submit" name="Submit" value="Submit"/>
                 <input type="reset" name="reset" value="reset"/>
             </form>
-            
-            
-
         </Section>
-        <?php
+            <?php
                 include("templates/footer.php"); 
             ?>
     </body>
+</html>

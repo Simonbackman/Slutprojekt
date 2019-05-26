@@ -1,10 +1,13 @@
 <?php session_start() ?>
 <!DOCTYPE html>
+<html>
     <lang="sv"/>
 	<head>	
 		<meta charset="utf-8"/>
+        <title>Bokning</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css.css"/>
+         <!-- Gör så att man kan använda sig av font bilder -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     
@@ -17,7 +20,7 @@
                     echo $_SESSION['error_msg'] . "<br>";
                     // TAR BORT ERROR_MSG
                     unset($_SESSION['error_msg']);
-                        }
+                        }  
                 ?>
             </div>
         <header class="header">
@@ -54,7 +57,8 @@
                 </form>
             </div>
         </Section>
-         <?php
+            <?php
                 include("templates/footer.php"); 
             ?>
     </body>
+</html>

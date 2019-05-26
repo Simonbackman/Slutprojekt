@@ -1,3 +1,4 @@
+/* Tar bort webbläsarens standard*/
 body{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body{
     border-left: 5px solid red;
     border-top: 5px solid red;
 }
-nav{
+nav{ /*Gör så att menyn ligger vertikalt och hur den ser ut  */
     float:left;
     width:100%;
     height:75px;    
@@ -23,8 +24,7 @@ nav{
     border-top: 4px solid red;
     background-color:black;
 }
-.admin_nav_item{
-    margin-left: 38%;
+.nav_item{  /* Bestämer hur innehållet ser ut i menyn */
     width:25%;
     float:left;
     height: 100%;
@@ -33,29 +33,11 @@ nav{
     line-height:75px; 
     color:white;
 }
-.admin_nav_item:hover {
+.nav_item:hover{    /* Gör så att något händer när man har musen över*/
     background-color: red;
     color:white;
 }
-.admin_section{
-    background: maroon;
-    height: 100vh;
-    border-top: 1px solid red;
-}
-.nav_item{
-    width:25%;
-    float:left;
-    height: 100%;
-    font-size: 120%;
-    text-align: center;
-    line-height:75px; 
-    color:white;
-}
-.nav_item:hover{
-    background-color: red;
-    color:white;
-}
-.section {						
+.section {  /* Utsendet på sectionen */				
 	border: 1px solid black;
 	box-sizing:border-box;
 	padding: 0.5%;	
@@ -65,7 +47,7 @@ nav{
     border-left: 5px solid red;
     border-right: 5px solid red;
 }
-#section_dishes{
+#section_dishes{ /* Utsendet på sidan där matträtterna syns (mat.php) */
     border: 1px solid black;
 	box-sizing:border-box;
     float:left;
@@ -76,10 +58,15 @@ nav{
     border-left: 5px solid red;
     border-right: 5px solid red; 
 }
-/* Startsida */
-.recensioner_container{
-    height: 250%;
+.footer{
+    background-color:black;
+    width: 100%;
+    color:white;
+    border-top: 1px solid red;
+    border-bottom: 6px solid red;
+    clear:both;
 }
+/* Startsida (index.php) */
 .bord{
     margin-top: 2%;
     width:35%;
@@ -89,8 +76,14 @@ nav{
     margin-top: 2%;
     float:right;
     width:35%;
-    max-height: 60vh;
     border: 4px solid red;
+}
+.recension{
+    border: 3px solid red;
+}
+.rec_recension{
+    border-top: 1px solid black;
+    width: 450%;
 }
 .tider{
     font-size: 20px;
@@ -103,21 +96,7 @@ h2{
     font-size:;
     text-align: center;
 }
-.recension{
-    border: 3px solid red;
-}
-.rec_recension{
-    border-top: 2px solid black;
-}
-.footer{
-    background-color:black;
-    width: 100%;
-    color:white;
-    border-top: 1px solid red;
-    border-bottom: 6px solid red;
-    clear:both;
-}
-/* Maträtter Från DB */
+/* Maträtter Från DB hur dem ser ut och var dem ligger(mat.php) */
 .food_container{
     width:35%;
     height:35vh;
@@ -160,7 +139,7 @@ h2{
     font-size: 150%;
     text-align: center;
 }
-/* Kontakta oss*/
+/* (contact.php)*/
 .tel_mail{
     font-size:20px;
 }
@@ -177,8 +156,6 @@ h2{
     width: 50%;
     float::left;
 }
-/* Startsida */
-
 section table {
     background-color:white;
     border:1px solid black;
@@ -190,7 +167,7 @@ section table {
 table{
     width: auto; 
 }
-.error_msg{
+.error_msg{ /*Utsendet på error medelandet och var den visas någonstans (bokning.php)*/
     text-decoration: underline;
     font-size: 38px;
     background-color: black;
@@ -213,7 +190,7 @@ table{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.boking_container{
+.boking_container{ /*Gör så att boknings formuläret är i mitten  */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -225,7 +202,7 @@ table{
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px;
 }
-.boking_container h2{
+.boking_container h2{ /*styr hur boknings rubriken ser ut*/
     margin: 0 0 30px; 
     padding: 0;
     color: #fff;
@@ -242,6 +219,26 @@ table{
 }
 .send{
     width: 20%;
+}
+/*Utsendet på adminpanelen (admin.php)*/
+.admin_nav_item{ /* Bestämer hur innehållet ser ut i menyn (bara på admin sidan) */
+    margin-left: 38%;
+    width:25%;
+    float:left;
+    height: 100%;
+    font-size: 120%;
+    text-align: center;
+    line-height:75px; 
+    color:white;
+}
+.admin_nav_item:hover { /* Gör så att något händer när man har musen över (bara på admin sidan)*/
+    background-color: red;
+    color:white;
+}
+.admin_section{ /* Utsendet på admin panelens section*/
+    background: maroon;
+    height: 100vh;
+    border-top: 1px solid red;
 }
 .input_food {
     background-color:rosybrown;

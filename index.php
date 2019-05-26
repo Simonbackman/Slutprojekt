@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-    <lang="sv"/>
-	<head>	
+<html> <lang="sv"/> 
+	<head>
+        <title>Startsida</title>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="css.css"/>
+         <!-- Gör så att man kan använda sig av font bilder -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     <body>
@@ -22,10 +24,10 @@
             </div>
             
                 <div class="mat_bord">
-                <!--<a href="bokning.php">--><img class="bord" src="bilder/bord.jpg" alt="bokning"/></a>
-                <!--<a href="mat.php">--><img class="mat" src="bilder/mat.jpg" alt="rätter"/></a>
+                    <img class="bord" src="bilder/bord.jpg" alt="bord"/></a>
+                    <img class="mat" src="bilder/mat.jpg" alt="maträtter"/></a>
                 </div>
-            <?php    
+            <?php   
                    include ("showrecension.php");
             ?>            
             <?php
@@ -33,3 +35,4 @@
             ?>
         </Section>
     </body>
+</html>
