@@ -37,7 +37,7 @@ nav{ /*Gör så att menyn ligger vertikalt och hur den ser ut  */
     background-color: red;
     color:white;
 }
-.section {  /* Utsendet på sectionen */				
+.section {  /* Utsendet på sectionerna */				
 	border: 1px solid black;
 	box-sizing:border-box;
 	padding: 0.5%;	

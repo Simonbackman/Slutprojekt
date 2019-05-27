@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="sv"> 
 	<head>
@@ -28,7 +29,7 @@
                     <img class="mat" src="bilder/mat.jpg" alt="maträtter"/></a>
                 </div>
             <?php   
-                   include ("showrecension.php");
+                   include ("templates/showrecension.php");
             ?>            
             <?php
                 include("templates/footer.php"); 

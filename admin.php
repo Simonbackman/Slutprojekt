@@ -53,7 +53,7 @@
             </div>
              <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <?php    
-                include("inforeservation.php");
+                include("templates/inforeservation.php");
             ?>
         </section>
     </body>
