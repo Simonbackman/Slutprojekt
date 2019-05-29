@@ -1,7 +1,7 @@
         <?php    
             $dbc_recension = mysqli_connect("localhost","siba@siba.kronhus.tk","nomis8899","siba");
+            
             $query = "SELECT * FROM recension";
-            mysqli_query($dbc_recension,"SET NAMES utf8");
             $result = mysqli_query($dbc_recension,$query);
             while($row = mysqli_fetch_array($result)){
         ?>
